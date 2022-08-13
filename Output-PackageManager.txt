@@ -1,0 +1,2 @@
+﻿
+Type 'get-help EntityFramework' to see all available Entity Framework commands.

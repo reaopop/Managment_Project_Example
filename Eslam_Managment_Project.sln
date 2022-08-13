@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eslam_Managment_Project", "Eslam_Managment_Project\Eslam_Managment_Project.csproj", "{D3262F8A-58D3-4A96-9E81-D5A99A55D57E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eslam_Managment_Project.Lib", "Eslam_Managment_Project.Lib\Eslam_Managment_Project.Lib.csproj", "{3EF1B965-BA1A-4E9A-8B12-1776A8C57813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3262F8A-58D3-4A96-9E81-D5A99A55D57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3262F8A-58D3-4A96-9E81-D5A99A55D57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3262F8A-58D3-4A96-9E81-D5A99A55D57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3262F8A-58D3-4A96-9E81-D5A99A55D57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF1B965-BA1A-4E9A-8B12-1776A8C57813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF1B965-BA1A-4E9A-8B12-1776A8C57813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF1B965-BA1A-4E9A-8B12-1776A8C57813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF1B965-BA1A-4E9A-8B12-1776A8C57813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0E16A2-D63A-4962-AC57-31CCEFAF0E64}
+	EndGlobalSection
+EndGlobal
