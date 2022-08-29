@@ -19,7 +19,7 @@ namespace Eslam_Managment_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Login());
+            Application.Run(new guna_Login());
         }
     }
 }

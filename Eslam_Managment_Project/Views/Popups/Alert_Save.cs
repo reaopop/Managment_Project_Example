@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using DevExpress.Utils;
 using static Eslam_Managment_Project.Logic.Services.Notification;
 
-namespace Rased_ERP.Views.Popups
+namespace Eslam_Managment_Project.Views.Popups
 {
     public partial class Alert_Save : Form
     {

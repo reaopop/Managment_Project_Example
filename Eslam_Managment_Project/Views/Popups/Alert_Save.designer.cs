@@ -1,5 +1,5 @@
 ﻿
-namespace Rased_ERP.Views.Popups
+namespace Eslam_Managment_Project.Views.Popups
 {
     partial class Alert_Save
     {
@@ -99,8 +99,8 @@ namespace Rased_ERP.Views.Popups
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.ErrorImage = global::Rased_ERP.Properties.Resources.SuccessClude;
-            this.pictureBox1.Image = global::Rased_ERP.Properties.Resources.SuccessClude;
+            this.pictureBox1.ErrorImage = global::Eslam_Managment_Project.Properties.Resources.SuccessClude;
+            this.pictureBox1.Image = global::Eslam_Managment_Project.Properties.Resources.SuccessClude;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 73);

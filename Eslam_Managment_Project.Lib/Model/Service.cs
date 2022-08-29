@@ -9,12 +9,6 @@ namespace Eslam_Managment_Project.Lib.Model
     [Table("Service")]
     public partial class Service
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Service()
-        {
-            ServiceLogs = new HashSet<ServiceLog>();
-        }
-
         public int id { get; set; }
 
         [Required]
@@ -24,9 +18,8 @@ namespace Eslam_Managment_Project.Lib.Model
 
         public int category_id { get; set; }
 
-        public virtual Category Category { get; set; }
+        public int AccountID { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ServiceLog> ServiceLogs { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

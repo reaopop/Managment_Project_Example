@@ -11,11 +11,11 @@ namespace Eslam_Managment_Project.Lib.Model
     {
         public int id { get; set; }
 
-        public int CustomerId { get; set; }
+        public int AccountID { get; set; }
 
-        public decimal? Debit { get; set; }
+        public decimal Debit { get; set; }
 
-        public decimal? Credit { get; set; }
+        public decimal Credit { get; set; }
 
         public DateTime InsertDate { get; set; }
 
@@ -26,6 +26,6 @@ namespace Eslam_Managment_Project.Lib.Model
         [Required]
         public string Notes { get; set; }
 
-        public int? UserId { get; set; }
+        public int UserId { get; set; }
     }
 }

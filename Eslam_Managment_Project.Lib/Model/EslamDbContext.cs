@@ -8,7 +8,7 @@ namespace Eslam_Managment_Project.Lib.Model
     public partial class EslamDbContext : DbContext
     {
         public EslamDbContext()
-            : base("name=EslamDbContext")
+            : base(Properties.Settings1.Default.ConnectionString)
         {
         }
 
@@ -41,14 +41,8 @@ namespace Eslam_Managment_Project.Lib.Model
                 .Property(e => e.Credit)
                 .HasPrecision(12, 4);
 
-            modelBuilder.Entity<Service>()
-                .HasMany(e => e.ServiceLogs)
-                .WithRequired(e => e.Service)
-                .HasForeignKey(e => e.service_id)
-                .WillCascadeOnDelete(false);
-
             modelBuilder.Entity<ServiceLog>()
-                .Property(e => e.ammount)
+                .Property(e => e.amount)
                 .HasPrecision(12, 4);
         }
     }

@@ -20,6 +20,8 @@ namespace Eslam_Managment_Project.Lib.Model
         [Required]
         public string drawer_name { get; set; }
 
+        public int AccountID { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ServiceLog> ServiceLogs { get; set; }
     }

@@ -20,6 +20,9 @@ namespace Eslam_Managment_Project.Lib.Model
         [Required]
         public string category_name { get; set; }
 
+        [Column(TypeName = "image")]
+        public byte[] Logo { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Service> Services { get; set; }
     }
